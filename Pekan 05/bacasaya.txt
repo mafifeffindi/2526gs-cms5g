@@ -1,0 +1,9 @@
+Kegiatan belajar pada Pekan 05: Membuat Kerangka WordPress Theme menggunakan Generative Artificial Intelligence (GenAI). 
+Tahapan kegiatan belajar:
+1. Mahasiswa membuka GenAI dengan prompt untuk membuat WordPress Theme dari awal.
+    Prompt yang dituliskan: "Saya akan membuat WordPress Theme. Tolong buatkan struktur file, code index.php dan style.css serta struktur file yang perlu dibuat."
+2. Mahasiswa mengeksekusi code yang dihasilkan oleh GenAI ke dalam web server yang dimiliki pada laptop masing-masing. 
+3. Mahasiswa mengunggah WordPress Theme yang sudah disusun ke dalam Repository kelas. 
+
+
+Rujukan untuk membuat WordPress Theme: https://www.petanikode.com/wordpress-template/ 
