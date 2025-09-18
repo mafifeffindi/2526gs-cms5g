@@ -1,1 +1,72 @@
+/*
+Theme Name: Arinal Theme
+Theme URI: https://website-tema-anda.com/
+Author: Nama Anda
+Author URI: https://website-anda.com/
+Description: Tema WordPress dasar yang dibuat untuk Arinal.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, two-columns, right-sidebar, responsive-layout
+Text Domain: arinal
+*/
 
+/* -------------------------------------------------------------------------
+   CSS kustom Anda dimulai dari sini
+------------------------------------------------------------------------- */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+header h1 {
+    color: #555;
+    text-align: center;
+    padding: 20px 0;
+}
+
+article.post {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+article.post h2 a {
+    text-decoration: none;
+    color: #333;
+}
+
+article.post h2 a:hover {
+    color: #0073aa;
+}
+
+.post-meta {
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.entry-content {
+    margin-top: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    background: #333;
+    color: #fff;
+}
