@@ -1,1 +1,149 @@
+/*
+Theme Name: Themacms
+Theme URI: http://example.com/themacms
+Author: Nama Kamu
+Author URI: http://example.com
+Description: Tema WordPress sederhana bernama Themacms dengan desain minimalis dan clean.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: themacms
+Tags: minimal, blog, simple
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  line-height: 1.6;
+  background: #fdfdfd;
+  color: #333;
+}
+
+/* CONTAINER */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+/* HEADER */
+.site-header {
+  background: #222;
+  color: #fff;
+  padding: 20px 0;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-title a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+.site-description {
+  font-size: 14px;
+  color: #ccc;
+}
+.site-nav .nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.site-nav .nav-menu a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+.site-nav .nav-menu a:hover {
+  color: #00bcd4;
+}
+
+/* CONTENT */
+.site-content {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 40px;
+  margin-top: 30px;
+}
+article {
+  margin-bottom: 40px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+}
+article h2 a {
+  color: #222;
+  text-decoration: none;
+  font-size: 22px;
+}
+article h2 a:hover {
+  color: #00bcd4;
+}
+article p small {
+  color: #777;
+}
+
+/* SIDEBAR */
+.sidebar .widget {
+  background: #fff;
+  border: 1px solid #eee;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+.widget-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  border-left: 4px solid #00bcd4;
+  padding-left: 10px;
+}
+
+/* FOOTER */
+.site-footer {
+  background: #222;
+  color: #ccc;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+.site-footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* BUTTON / LINK */
+a {
+  color: #00bcd4;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* PAGINATION */
+.pagination {
+  margin: 20px 0;
+  display: flex;
+  gap: 10px;
+}
+.pagination a,
+.pagination span {
+  display: inline-block;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #333;
+}
+.pagination a:hover {
+  background: #00bcd4;
+  color: #fff;
+  border-color: #00bcd4;
+}
 
