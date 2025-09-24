@@ -1,0 +1,14 @@
+Kegiatan Belajar Pekan 06:
+1. Mahasiswa membuat 2 (dua) WordPress Theme dengan ketentuan berikut:
+    a. Mahasiswa membuat 1 (satu) WordPress Theme baru menggunakan alat bantu GenAI (Generative Artificial Intelligence) 
+    b. Mahasiswa membuat 1 (satu) WordPress Theme mengikuti web berikut: https://www.dewaweb.com/blog/belajar-membuat-template-wordpress-sendiri-dari-nol/ 
+2. Mahasiswa membuat catatan tulis tangan mengenai struktur 2 (dua) WordPress Theme yang sudah dibuat.
+    Isi Catatan Tulis Tangan:
+    a. Struktur Theme
+    b. Penjelasan fungsi kode yang dibuat.
+3. Mahasiswa mengunggah WordPress Theme ke Repo ==> Folder Pekan 06 | Nama Folder XXX-Nama Lengkap.
+    File yang diunggah:
+    a. Folder masing2 Theme.
+    b. Capture Hasil tampilan web dari masing2 Theme.
+    c. Scan Tulis Tangan Catatan. 
+4. Mahasiswa mempresentasikan proses dan hasilnya.
