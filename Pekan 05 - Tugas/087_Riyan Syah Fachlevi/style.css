@@ -1,1 +1,44 @@
+/*
+Theme Name: Riyan Theme
+Author: Riyan Fachlevi
+Description: Tema WordPress sederhana dengan sidebar.
+Version: 1.0
+*/
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+}
+
+main {
+    flex: 3;
+    padding: 20px;
+}
+
+aside {
+    flex: 1;
+    background: #f5f5f5;
+    padding: 20px;
+    border-left: 1px solid #ccc;
+}
+
+header, footer {
+    background: #0073aa;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+a {
+    color: #0073aa;
+    text-decoration: none;
+}
