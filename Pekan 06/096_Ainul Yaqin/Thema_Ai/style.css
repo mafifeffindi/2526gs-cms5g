@@ -1,0 +1,144 @@
+/*
+Theme Name: thema-branding
+Author: Anda
+Description: Tema landing page branding, bahasa Indonesia, dengan efek animasi saat scroll.
+Version: 1.0
+Text Domain: thema-branding
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
+
+:root{
+  --accent: #7b2be8;
+  --dark: #111;
+  --muted: #777;
+  --bg: #ffffff;
+}
+
+*{box-sizing: border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  font-family:'Poppins',sans-serif;
+  color:#222;
+  background:var(--bg);
+  -webkit-font-smoothing:antialiased;
+}
+
+/* Header / Navigasi */
+.site-header{
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  height:64px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:0 40px;
+  background:rgba(0,0,0,0.6);
+  z-index:999;
+}
+.site-header .brand{
+  color:#fff;
+  font-weight:700;
+  font-size:18px;
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+.site-header .brand .logo-box{
+  width:28px;height:28px;border-radius:6px;
+  background:var(--accent);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:13px;
+}
+
+/* Menu */
+.main-nav ul{
+  display:flex;
+  gap:18px;
+  list-style:none;
+  margin:0;padding:0;
+}
+.main-nav a{color:#fff;text-decoration:none;font-size:13px;opacity:0.95}
+.main-nav a:hover{opacity:1;color:#ffd7ff}
+
+/* Hero */
+.hero{
+  height:100vh;
+  min-height:600px;
+  display:flex;
+  align-items:center;
+  padding:0 60px;
+  position:relative;
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  /* fallback color */
+  background-color:#222;
+}
+.hero::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(90deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.3) 40%, rgba(0,0,0,0.6) 100%);
+  pointer-events:none;
+}
+.hero .hero-inner{position:relative;z-index:2;max-width:680px;color:#fff}
+.hero h1{
+  font-size:48px;
+  margin:0 0 16px;
+  line-height:1.06;
+  font-weight:800;
+}
+.hero p{margin:0 0 22px;color:rgba(255,255,255,0.9);font-size:16px}
+
+/* Tombol */
+.btn{
+  display:inline-block;padding:11px 18px;border-radius:6px;background:var(--accent);color:#fff;text-decoration:none;font-weight:600;font-size:14px;
+  transition:transform .18s ease, box-shadow .18s ease;
+}
+.btn:active{transform:translateY(1px)}
+.btn:hover{box-shadow:0 6px 18px rgba(123,43,232,0.18)}
+
+/* Section umum */
+.section{
+  padding:80px 60px;
+  text-align:center;
+}
+.section h2{font-size:26px;margin-bottom:10px;font-weight:700}
+.section p.lead{color:var(--muted);max-width:720px;margin:0 auto 40px}
+
+/* Fitur */
+.features{display:flex;gap:20px;justify-content:space-between;margin-top:30px}
+.feature{flex:1;padding:18px}
+.feature .icon{width:62px;height:62px;border-radius:12px;background:#fff;display:flex;align-items:center;justify-content:center;margin:0 auto 12px;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+.feature h3{margin:8px 0 8px;font-size:16px}
+.feature p{color:var(--muted);font-size:14px}
+
+/* Seksi laptop (gambar + teks) */
+.laptop-section{
+  display:flex;
+  align-items:center;
+  gap:40px;
+  padding:60px;
+  background:#f7f7f7;
+}
+.laptop-section .laptop-img{flex:0 0 48%}
+.laptop-section .laptop-img img{width:100%;height:auto;display:block}
+.laptop-section .laptop-content{flex:1;padding:10px}
+.laptop-section .laptop-content h3{font-size:22px;margin-bottom:10px}
+.laptop-section .laptop-content p{color:var(--muted);margin-bottom:16px}
+.laptop-section .laptop-content ul{list-style:disc;margin-left:18px;color:var(--muted)}
+
+/* Responsif */
+@media (max-width: 900px){
+  .hero h1{font-size:36px}
+  .laptop-section{flex-direction:column}
+  .features{flex-direction:column;align-items:center}
+  .site-header{padding:0 18px}
+  .hero{padding:0 18px}
+}
+
+/* Footer */
+.site-footer{background:#111;color:#ddd;padding:38px 20px;text-align:center}
+.site-footer p{margin:0;font-size:14px}
