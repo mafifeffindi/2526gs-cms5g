@@ -1,0 +1,48 @@
+/*
+Theme Name: Selamat Datang Keren
+Author: ChatGPT
+Description: Tema sederhana dengan tampilan selamat datang modern
+Version: 1.0
+*/
+
+/* Variabel warna */
+:root {
+  --bg: #0f1724;
+  --accent1: linear-gradient(135deg, #6ee7b7 0%, #3b82f6 100%);
+  --muted: rgba(255, 255, 255, 0.7);
+  --radius: 18px;
+  --container: 1100px;
+  font-family: "Inter", sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: var(--bg); color: #fff; line-height: 1.6; }
+
+/* Container */
+.container { max-width: var(--container); margin: 0 auto; padding: 0 20px; }
+
+/* HERO */
+.hero-wrap { min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; position: relative; overflow: hidden; padding: 60px 20px; }
+.hero-bg { position: absolute; inset: 0; z-index: 0; }
+.blob { position: absolute; border-radius: 50%; filter: blur(60px); opacity: 0.8; }
+.blob-1 { width: 500px; height: 500px; background: linear-gradient(135deg,#6ee7b7,#3b82f6); top: -10%; left: -15%; }
+.blob-2 { width: 400px; height: 400px; background: linear-gradient(135deg,#a78bfa,#f472b6); bottom: -15%; right: -10%; }
+.glow { position: absolute; inset: 0; background: radial-gradient(circle, rgba(255,255,255,0.05), transparent 30%); }
+
+.hero-content { position: relative; z-index: 2; max-width: 700px; }
+.hero-title { font-size: 42px; margin-bottom: 16px; font-weight: 700; }
+.hero-dek { color: var(--muted); margin-bottom: 24px; }
+.cta-btn { background: var(--accent1); padding: 14px 28px; border-radius: var(--radius); color: #021024; text-decoration: none; font-weight: 700; display: inline-block; transition: transform .2s ease; }
+.cta-btn:hover { transform: translateY(-4px); }
+
+/* About Section */
+.about { margin-top: 80px; position: relative; z-index: 2; }
+.about h2 { font-size: 28px; margin-bottom: 12px; }
+.about p { color: var(--muted); }
+
+/* Responsive */
+@media (max-width: 600px) {
+  .hero-title { font-size: 28px; }
+  .cta-btn { padding: 10px 20px; }
+  .blob { display: none; }
+}
