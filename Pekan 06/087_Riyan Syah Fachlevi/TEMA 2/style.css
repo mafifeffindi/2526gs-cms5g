@@ -1,0 +1,113 @@
+/*
+Theme Name: Tema Ryansyah Alam
+Theme URI: http://contoh.com
+Author: Ryansyah
+Description: Tema WordPress bernuansa alam dengan warna hijau, biru, dan cokelat yang menenangkan
+Version: 1.0
+License: GNU General Public License v2 or later
+Text Domain: tema-ryansyah-alam
+*/
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f9f4; /* hijau muda alami */
+  color: #2c3e2c; /* hijau tua elegan */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(135deg, #2e7d32, #66bb6a); /* hijau alami */
+  color: #fff;
+  padding: 25px;
+  text-align: center;
+  border-bottom: 4px solid #1b5e20;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+
+header h1 a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 18px 0 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #f0f9f4;
+  background-color: rgba(255,255,255,0.15);
+  padding: 8px 18px;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #a5d6a7;
+  color: #1b5e20;
+}
+
+main {
+  max-width: 950px;
+  margin: 35px auto;
+  padding: 0 20px;
+}
+
+article {
+  background: #ffffff;
+  border: 1px solid #a5d6a7;
+  border-radius: 15px;
+  padding: 22px;
+  margin-bottom: 25px;
+  box-shadow: 0px 3px 8px rgba(0,0,0,0.08);
+  transition: transform 0.2s;
+}
+
+article:hover {
+  transform: translateY(-5px);
+}
+
+article h2 a {
+  color: #2e7d32;
+  text-decoration: none;
+}
+
+footer {
+  background: linear-gradient(135deg, #1b5e20, #388e3c);
+  text-align: center;
+  padding: 18px;
+  margin-top: 50px;
+  font-size: 0.95rem;
+  color: #e8f5e9;
+  border-top: 3px solid #66bb6a;
+}
+
+.sidebar {
+  background: #e8f5e9;
+  border: 1px solid #81c784;
+  border-radius: 14px;
+  padding: 20px;
+  margin-top: 22px;
+}
+
+.sidebar h3 {
+  color: #2e7d32;
+  border-bottom: 2px solid #81c784;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
