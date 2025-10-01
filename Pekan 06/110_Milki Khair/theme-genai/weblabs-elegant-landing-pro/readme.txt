@@ -1,25 +1,44 @@
+=== WebLabs Elegant Landing Pro (Versi Tugas) ===
+Kontributor: Milki Khair Al Firdaus (110)
+Sumber dasar: WebLabs Elegant Landing Pro (dibuat dengan bantuan GenAI)
+WordPress: 6.x
+Lisensi: GPLv2 atau yang lebih baru
 
-=== WebLabs Elegant Landing Pro ===
-Contributors: weblabs
-Requires at least: 6.0
-Tested up to: 6.6
-License: GPLv2 or later
+== Deskripsi ==
+Tema landing page elegan dengan tipografi iPhone-like dan skema warna tenang.
+Tema ini saya gunakan untuk pemenuhan tugas: 1) membuat tema dengan GenAI, 
+2) menulis struktur dan penjelasan singkat kode, serta 3) upload hasil & tangkapan layar.
 
-Elegant landing page theme with iPhone-like font, calm color schemes controlled via Customizer, and WooCommerce "Add to Cart" integration.
+== Fitur Utama ==
+- Header, hero section, dan blok konten siap pakai
+- Kustomisasi warna dan teks via Customizer
+- Siap gambar aset di folder /assets/ (bisa ganti sesuai branding)
+- Kompatibel WooCommerce (opsional, untuk tombol add-to-cart)
 
-== Quick Start ==
-1. Upload & activate the theme.
-2. Create a page "Home".
-3. Settings → Reading → Your homepage displays → A static page → Homepage: Home.
-4. (Recommended) Install & activate WooCommerce. Add a few Products.
-5. Customize → WebLabs Landing: set color scheme, hero texts, and WhatsApp number.
+== Struktur Folder (ringkas) ==
+/weblabs-elegant-landing-pro
+|-- index.php           : Beranda/loop konten utama
+|-- style.css           : Metadata tema + gaya global
+|-- header.php          : Bagian <head> & navigasi
+|-- footer.php          : Bagian bawah situs + wp_footer()
+|-- functions.php       : Daftar dukungan fitur & enqueue script/style
+|-- front-page.php      : Template landing (jika dijadikan halaman depan statis)
+|-- assets/             : Gambar/ikon/ilustrasi tema
 
-== Color Schemes ==
-- Navy/Gold (Elegan)
-- Moka (Hangat)
-- Sage (Tenang)
-- Dusk (Modern)
+== Cara Pakai (lokal Docker) ==
+1. Salin tema ke container:
+   - Sudah dilakukan pada tugas: `docker cp ... /var/www/html/wp-content/themes/...`
+2. Aktifkan di WP Admin → Appearance → Themes → “WebLabs Elegant Landing Pro”.
+3. (Opsional) Jadikan halaman statis:
+   - Settings → Reading → Your homepage displays → A static page → pilih “Home”.
+4. Ganti teks/gambar:
+   - Ubah gambar di /assets/ dan sesuaikan copy di front-page.php / Customizer.
 
-== Notes ==
-- If WooCommerce is missing, the landing will show placeholders; add-to-cart requires WooCommerce.
-- Replace images in /assets/img/ with your real photos.
+== Catatan ==
+- Jika WooCommerce tidak terpasang, tombol add-to-cart tidak aktif (placeholder saja).
+- Ganti placeholder gambar dengan foto/ikon milik sendiri di /assets/.
+- Tema ini basisnya hasil GenAI lalu disesuaikan seperlunya untuk tugas.
+
+== Kredit ==
+- Basis desain & copy awal: WebLabs (AI-assisted)
+- Adaptasi & dokumentasi tugas: Milki Khair Al Firdaus (110)
