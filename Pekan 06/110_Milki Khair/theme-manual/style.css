@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+  margin: 0;
+}
+
+.site-header {
+  background: #0a1a3f;
+  color: #fff;
+  padding: 1rem;
+}
+
+.site-footer {
+  background: #0a1a3f;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.article-loop, .article-full {
+  background: #fff;
+  padding: 1rem;
+  margin: 1rem auto;
+  border-radius: 8px;
+  max-width: 700px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
