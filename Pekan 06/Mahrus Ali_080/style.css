@@ -1,0 +1,91 @@
+/*
+Theme Name: Informatika Education
+Theme URI: http://example.com/
+Author: Anda
+Description: Tema WordPress keren untuk website pendidikan informatika
+Version: 1.0
+License: GNU General Public License v2 or later
+Tags: education, informatics, modern, responsive
+*/
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f0f0f0; /* abu muda */
+    color: #333;
+}
+
+header {
+    background: linear-gradient(90deg, #1e90ff, #0077b6); /* biru gradasi */
+    padding: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #0077b6; /* biru gelap */
+    background: white;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#1e90ff, #444); /* biru ke abu gelap */
+    padding: 40px;
+    color: white;
+}
+
+.hero img {
+    max-width: 250px;
+    border-radius: 15px;
+    margin-right: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero-text h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1000px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+footer {
+    background: #0077b6; /* biru gelap */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
