@@ -1,0 +1,1 @@
+<?php get_header(); ?><div class="container section"><h1>Landing</h1><p>Set halaman depan ke Static Page agar template front-page aktif.</p></div><?php get_footer(); ?>
