@@ -1,0 +1,39 @@
+/*
+Theme Name: BlueSky
+Theme URI: https://example.com/bluesky
+Author: Riyan Fachlevi
+Author URI: https://example.com
+Description: Tema WordPress sederhana dengan dominasi warna biru.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: bluesky
+*/
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e0f0ff;
+    color: #333;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #0056b3;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.container {
+    padding: 20px;
+}
