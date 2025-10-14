@@ -1,0 +1,59 @@
+/*
+Theme Name: Classic Theme
+Theme URI: https://example.com/classic-theme
+Author: Nama Anda
+Author URI: https://example.com
+Description: Tema WordPress klasik dengan tampilan sederhana dan sidebar kanan.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: classic, two-columns, right-sidebar, blog
+Text Domain: classic-theme
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  width: 960px;
+  margin: 0 auto;
+  background: #fff;
+  display: flex;
+}
+
+#content {
+  flex: 3;
+  padding: 20px;
+}
+
+#sidebar {
+  flex: 1;
+  padding: 20px;
+  background: #eee;
+}
+
+header, footer {
+  background-color: #004080;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+a {
+  color: #004080;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.content {
+  background-image: url('assets/screenshot.png');
+  background-size: cover;
+  background-position: center;
+}
