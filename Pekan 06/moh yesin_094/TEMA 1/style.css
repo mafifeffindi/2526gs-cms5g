@@ -1,0 +1,154 @@
+/*
+Theme Name: Custom Profile Theme
+Author: Your Name
+Version: 1.0
+Description: Tema WordPress untuk tampilan profil modern
+*/
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f2f5;
+  color: #333;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Hero Background Effects (optional) */
+.hero-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.3;
+}
+
+.blob-1 {
+  width: 400px;
+  height: 400px;
+  background: #6C63FF;
+  top: -100px;
+  left: -100px;
+}
+
+.blob-2 {
+  width: 300px;
+  height: 300px;
+  background: #ff6584;
+  bottom: -80px;
+  right: -80px;
+}
+
+.glow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+/* Hero Content */
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+/* Profile Card */
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.profile-image img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #eee;
+  margin-bottom: 20px;
+}
+
+.hero-title {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.hero-desc {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.cta-btn {
+  display: inline-block;
+  background-color: #0073e6;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #005bb5;
+}
+
+/* About Section */
+.about {
+  background: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+.about h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.about p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #444;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+  .profile-card {
+    flex-direction: row;
+    text-align: left;
+    gap: 40px;
+  }
+
+  .profile-image {
+    flex: 0 0 auto;
+  }
+
+  .profile-info {
+    flex: 1;
+  }
+}
