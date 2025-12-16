@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>CRUD data pribadi mahasiswa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Data Kepribadian Diri</h2>
+
+<form id="formData">
+    <input type="text" id="nama" placeholder="Nama" required>
+    <input type="number" id="umur" placeholder="Umur" required>
+
+    <select id="kepribadian">
+        <option value="Introvert">Introvert</option>
+        <option value="Ekstrovert">Ekstrovert</option>
+        <option value="Ambivert">Ambivert</option>
+    </select>
+
+    <button type="submit">Simpan</button>
+</form>
+
+<table>
+    <thead>
+        <tr>
+            <th>Nama</th>
+            <th>Umur</th>
+            <th>Kepribadian</th>
+            <th>Aksi</th>
+        </tr>
+    </thead>
+    <tbody id="tabelData"></tbody>
+</table>
+
+<script src="script.program"></script>
+</body>
+</html>
