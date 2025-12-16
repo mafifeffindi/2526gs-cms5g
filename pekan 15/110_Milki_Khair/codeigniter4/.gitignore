@@ -1,0 +1,18 @@
+/writable/*
+!/writable/.htaccess
+!/writable/index.html
+
+/public/.htaccess
+.env
+/vendor/
+.DS_Store
+
+# cache / logs
+/writable/cache/*
+/writable/logs/*
+/writable/session/*
+/writable/uploads/*
+
+# IDE
+.vscode/
+.idea/
